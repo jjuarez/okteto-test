@@ -1,5 +1,5 @@
 name: sinatra
-image: jjuarez/sinatra-app:latest
+image: jjuarez/okteto-test:latest
 command:
 - bash
 environment:
