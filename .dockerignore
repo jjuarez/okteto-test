@@ -1,8 +1,9 @@
 .git
 .cache
+.dockerignore
 *.log
 Dockerfile
-.dockerignore
-Gemfile.lock
+docker-compose.yml
 dump.rdb
 okteto.yaml
+README.md
