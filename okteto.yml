@@ -1,10 +1,10 @@
 name: sinatra
-image: okteto/ruby:2
+image: jjuarez/sinatra-app:latest
 command:
 - bash
 environment:
   - name=$USER
   - environment=development
-workdir: /usr/src/app
+workdir: /opt/app
 forward:
   - 8080:80
