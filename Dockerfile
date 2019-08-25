@@ -28,7 +28,7 @@ COPY . /opt/app/
 RUN addgroup -g 1001 -S services
 RUN adduser --system --uid 1001 --shell /bin/false -G services app
 RUN chown -R app:services /opt/app
-#USER app
+USER app
 
 WORKDIR /opt/app
 EXPOSE 8080/tcp
