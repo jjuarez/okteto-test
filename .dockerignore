@@ -1,0 +1,8 @@
+.git
+.cache
+*.log
+Dockerfile
+.dockerignore
+Gemfile.lock
+dump.rdb
+okteto.yaml

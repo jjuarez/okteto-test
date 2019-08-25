@@ -1,0 +1,15 @@
+---
+version: "2.0"
+
+services:
+  web:
+    image: sinatra-app:latest
+    env_file: .env
+    depends_on:
+      - redis
+    ports:
+      - "8080:8080"
+    links:
+      - redis:redis
+  redis:
+    image: "redis:alpine"

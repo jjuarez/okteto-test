@@ -1,0 +1,10 @@
+name: sinatra
+image: okteto/ruby:2
+command:
+- bash
+environment:
+  - name=$USER
+  - environment=development
+workdir: /usr/src/app
+forward:
+  - 8080:80
