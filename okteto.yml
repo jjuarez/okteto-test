@@ -1,10 +1,12 @@
-name: sinatra
-image: jjuarez/okteto-test:latest
-command:
-- bash
+name: okteto-test
+image: okteto/ruby:2
 environment:
-  - name=$USER
-  - environment=development
+  - RACK_ENV=production
+  - REDIS_HOST=redis
+  - REDIS_PORT=6379
+  - REDIS_DB=0
 workdir: /opt/app
+command:
+  - bash
 forward:
-  - 8080:80
+  - 8080:8080
