@@ -17,7 +17,7 @@ FROM ruby:2.5.5-alpine AS production
 LABEL \
       org.label-schema.name="Sinatra application" \
       org.label-schema.description="A basic application to test the okteto platform" \
-      org.label-schama.url="https://github.com/jjuarez/okteto-test" \
+      org.label-schema.url="https://github.com/jjuarez/okteto-test" \
       org.label-schema.docker.Dockerfile="Dockerfile" \
       org.label-schema.maintainer="javier.juarez@gmail.com"
 
