@@ -1,22 +1,22 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    dotenv (2.7.5)
-    json (2.3.1)
+    dotenv (2.7.6)
+    json (2.5.1)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
-    nio4r (2.5.2)
-    puma (4.3.5)
+    nio4r (2.5.7)
+    puma (4.3.8)
       nio4r (~> 2.0)
     rack (2.2.3)
-    rack-protection (2.0.7)
+    rack-protection (2.1.0)
       rack
-    redis (4.2.1)
-    ruby2_keywords (0.0.2)
-    sinatra (2.0.7)
+    redis (4.2.5)
+    ruby2_keywords (0.0.4)
+    sinatra (2.1.0)
       mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.7)
+      rack (~> 2.2)
+      rack-protection (= 2.1.0)
       tilt (~> 2.0)
     tilt (2.0.10)
 
@@ -24,12 +24,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  dotenv
-  json
-  puma (~> 4.3.4)
-  rack (~> 2.2.2)
-  redis
-  sinatra (= 2.0.7)
+  dotenv (~> 2.7)
+  json (~> 2.5)
+  puma (~> 4.3)
+  redis (~> 4.2)
+  sinatra (~> 2.0)
 
 BUNDLED WITH
    2.1.4
