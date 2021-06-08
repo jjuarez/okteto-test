@@ -2,9 +2,8 @@
 
 source "https://rubygems.org"
 
-gem 'sinatra', '2.0.7'
-gem 'rack', '~> 2.2.2' 
-gem 'dotenv'
-gem 'puma', '~>4.3.4' 
-gem 'json'
-gem 'redis'
+gem 'sinatra', '~>2.0'
+gem 'dotenv', '~>2.7'
+gem 'puma', '~>4.3'
+gem 'json', '~>2.5'
+gem 'redis','~>4.2' 
